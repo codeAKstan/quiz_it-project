@@ -10,12 +10,18 @@
 <body>
     <header>
         <nav role="navigation">
-            
             <div class="c-left">
                 <a href="#">
-                    <img src="images/inspiration.png" alt="Quiz it Logo">
+                    <img src="images/inspiration.png" alt="Quiz it Logo"> <b>Quiz it</b>
                 </a>
-                <ul>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="c-right">
+                <ul class="menu">
                     <li>
                         <a href="#">Take Quiz</a>
                     </li>
@@ -25,10 +31,6 @@
                     <li>
                         <a href="#">Contact Us</a>
                     </li>
-                </ul>
-            </div>
-            <div class="c-right">
-                <ul>
                     <li>
                         <a href="#">Support</a>
                     </li>
@@ -36,17 +38,26 @@
                         <a href="#">Login</a>
                     </li>
                     <li>
-                        <button>Register</button>
+                        <a href=""><button>Register</button></a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#">Take Quiz</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Support</a>
+            <a href="#">Login</a>
+            <button>Register</button>
+        </div>
     </header>
     <main role="main">
-      
+        
     </main>
     <!-- <footer>
         <p>&copy; 2024 Quiz it. All rights reserved.</p>
     </footer> -->
+    <script src="scripts/script.js"></script>
 </body>
 </html>
