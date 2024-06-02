@@ -96,7 +96,7 @@ main {
     cursor: pointer;
     border-radius: 5px;
     width: 300px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .container {
     display: flex;
