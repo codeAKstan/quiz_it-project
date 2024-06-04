@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz it - Take Quiz and Get Rewards</title>
-    <link rel="shortcut icon" href="images/inspiration.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/images/inspiration.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
     <header>
         <nav role="navigation">
             <div class="c-left">
                 <a href="#">
-                    <img src="images/inspiration.png" alt="Quiz it Logo"> <b>Quiz it</b>
+                    <img src="assets/images/inspiration.png" alt="Quiz it Logo"> <b>Quiz it</b>
                 </a>
             </div>
             <div class="menu-toggle" id="menu-toggle">
@@ -35,10 +35,10 @@
                         <a href="#">Support</a>
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <a href="login.php">Login</a>
                     </li>
                     <li>
-                        <a href=""><button>Register</button></a>
+                        <a href="register.php"><button>Register</button></a>
                     </li>
                 </ul>
             </div>
@@ -48,17 +48,17 @@
             <a href="#">About</a>
             <a href="#">Contact Us</a>
             <a href="#">Support</a>
-            <a href="#">Login</a>
-            <button>Register</button>
+            <a href="login.php">Login</a>
+            <a href="register.php"><button>Register</button></a>
         </div>
     </header>
     <main role="main">
         <div class="container">
             <div class="wrap-left">
                 <h1>Quiz it and earn in an interactive environment</h1>
-                <p>Take this quizzes to get more knowkedge while having fun</p>
+                <p>Take this quizzes to get more knowledge while having fun</p>
                 <div class="buttons">
-                    <a href="#" class="btn-primary">Create an account</a>
+                    <a href="register.php" class="btn-primary">Create an account</a>
                 </div>
             </div>
             <div class="wrap-right">
@@ -73,7 +73,7 @@
         <!-- cards -->
         <div class="cards-container">
             <div class="card">
-                <img src="images/quiz.png" alt="interactive quizzes">
+                <img src="assets/images/quiz.png" alt="interactive quizzes">
                 <h2>Interactive Quizzes</h2>
                 <p>
                     Experience quizzes like never before with 
@@ -83,7 +83,7 @@
                 <a href="#">Try a Quiz Now</a>
             </div>
             <div class="card">
-                <img src="images/rewards.png" alt="rewards">
+                <img src="assets/images/rewards.png" alt="rewards">
                 <h2>Earn Rewards</h2>
                 <p>
                     Earn points for each quiz you complete and redeem them for exciting rewards. 
@@ -92,7 +92,7 @@
                 <a href="#">Learn More</a>
             </div>
             <div class="card">
-                <img src="images/community.jpg" alt="An image representing community">
+                <img src="assets/images/community.jpg" alt="An image representing community">
                 <h2>Join Our Community</h2>
                 <p>
                     Become a part of a vibrant community of learners and quiz enthusiasts. 
@@ -101,11 +101,21 @@
                 <a href="#">Sign Up Today</a>
             </div>
         </div>
+        <!-- FAQ -->
+        <div class="faq-container">
+            <h2>FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="qa">
+                <div>
+                    <h3>How do you earn Rewards</h3>
+                    <p>You can get points from taking quiz, each correct one gives you a two points rewards</p>
+                </div>
+            </div>
+        </div>
     </main>
    
     <!-- <footer>
         <p>&copy; 2024 Quiz it. All rights reserved.</p>
     </footer> -->
-    <script src="scripts/script.js"></script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>
