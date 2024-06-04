@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Quizit Login</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles/register.css">
-	<link rel="shortcut icon" href="img/ideas.png" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/images/inspiration.png" type="image/x-icon">
 
 </head>
 <body>

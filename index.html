@@ -6,6 +6,8 @@
     <title>Quiz it - Take Quiz and Get Rewards</title>
     <link rel="shortcut icon" href="assets/images/inspiration.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -101,21 +103,89 @@
                 <a href="#">Sign Up Today</a>
             </div>
         </div>
+        </main>
+        <!-- About -->
+        <section id="about">
+            <h2>About Quiz It</h2>
+            <p>Quiz It is a dynamic platform that combines learning with fun. Our mission is to provide an engaging way for users to test their knowledge and earn rewards through interactive quizzes. Whether you're a student looking to reinforce your studies, a professional seeking to stay sharp, or just someone who loves trivia, Quiz It offers something for everyone.</p>
+            <p>Our vision is to create a global community where learning never stops and knowledge is celebrated. Join us on this exciting journey!</p>
+            <div>
+                <h2>How It Works</h2>
+                <ul>
+                    <li><strong>Create an Account:</strong> Sign up on Quiz It with your email and start exploring.</li>
+                    <li><strong>Take Quizzes:</strong> Choose from a variety of quizzes across different topics and difficulty levels.</li>
+                    <li><strong>Earn Rewards:</strong> Complete quizzes to earn points and rewards. Track your progress on your dashboard.</li>
+                    <li><strong>Redeem Rewards:</strong> Use your earned points to redeem exciting rewards from our store.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Features</h2>
+                <ul>
+                    <li>Interactive quizzes with real-time feedback</li>
+                    <li>Wide range of topics and difficulty levels</li>
+                    <li>Rewards for participation and high scores</li>
+                    <li>Customizable quizzes for educators and learners</li>
+                    <li>User-friendly interface and easy navigation</li>
+                </ul>
+            </div>
+        </section>
         <!-- FAQ -->
-        <div class="faq-container">
-            <h2>FREQUENTLY ASKED QUESTIONS</h2>
-            <div class="qa">
-                <div>
-                    <h3>How do you earn Rewards</h3>
-                    <p>You can get points from taking quiz, each correct one gives you a two points rewards</p>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">How do I create an account?</button>
+                <div class="faq-answer">
+                    <p>Click on the "Register" button on the homepage and fill in your details. You'll receive a confirmation email.</p>
                 </div>
             </div>
+            <div class="faq-item">
+                <button class="faq-question">How do I take a quiz?</button>
+                <div class="faq-answer">
+                    <p>After logging in, navigate to the "Take Quiz" section, choose a quiz, and start answering the questions.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How are rewards earned?</button>
+                <div class="faq-answer">
+                    <p>Points are awarded based on your performance in quizzes. You can accumulate these points and redeem them for various rewards.</p>
+                </div>
+            </div>
+        </section>
+    <!-- footer -->
+    
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <h3>Quiz It</h3>
+            <p>Join us makw learning fun and rewarding!</p>
+            <p>&copy; 2024 Quiz It. All rights reserved.</p>
         </div>
-    </main>
-   
-    <!-- <footer>
-        <p>&copy; 2024 Quiz it. All rights reserved.</p>
-    </footer> -->
+        <div class="footer-right">
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form action="/contact" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+                <p>Or reach us at: <a href="mailto:support@quizit.com">support@quizit.com</a></p>
+                <p>Follow us on:</p>
+                <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+    </div>
+</footer>
+    
     <script src="assets/scripts/script.js"></script>
 </body>
 </html>
