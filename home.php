@@ -39,18 +39,18 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 			</li>
 			<li>
 				<a href="#">
-					<i class='bx bx-question-mark' ></i>
+					<i class='bx bx-pencil' ></i>
 					<span class="text">Quizzes</span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="">
 					<i class='bx bx-award' ></i>
-					<span class="text">Leaderboard</span>
+					<span class="text">Leaderboard <small>[coming soon]</small></span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="dash/me.php">
 					<i class='bx bxs-user' ></i>
 					<span class="text">My Profile</span>
 				</a>
@@ -59,7 +59,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 		</ul>
 		<ul class="side-menu">
 			<li>
-				<a href="#">
+				<a href="settings.php">
 					<i class='bx bxs-cog' ></i>
 					<span class="text">Settings</span>
 				</a>
@@ -126,15 +126,15 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 				<li>
 					<i class='bx bxs-dollar-circle' ></i>
 					<span class="text">
-						<h3><?=$_SESSION['points']?>qp</h3>
-						<p>Income</p>
+						<h3><?=$_SESSION['points']?> Qp</h3>
+						<p>Earnings</p>
 					</span>
 				</li>
 				<li>
 				<i class=" fa fa-exchange" style="background-color:#EF3B3A;padding:25px;border-radius:3px;color:white;"></i>
 					<span class="text">
-						<h3><?=$_SESSION['redeemed_points']?>qp</h3>
-						<p>Redeemed</p>
+						<h3><?=$_SESSION['redeemed_points']?> Qp</h3>
+						<p>Redeemed Earnings</p>
 					</span>
 				</li>
 				
@@ -149,21 +149,21 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 						<i class='bx bx-filter' ></i>
 					</div>
 					<table>
-						<thead>
+						<!-- <thead>
 							<tr>
 								<th>User</th>
 								<th>Date </th>
 								<th>Status</th>
 							</tr>
 						</thead>
-						<tbody>
-						<tr>
+						<tbody> -->
+						<!-- <tr>
 								<td>
 								<?=$_SESSION['fname']?>
 								</td>
 								<td><?= date('m.d.y')?></td>
 								<td style="color:green;">Active</td>
-							</tr>
+							</tr> -->
 							<tr>
 								<td>
 									

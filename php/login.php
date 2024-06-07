@@ -36,6 +36,7 @@ if(isset($_POST['uname']) &&
           $redeemedPoints = $user['redeemed_points'];
           $last_login = $user['last_login'];
           $withdraw = $user['withdraw'];
+          $email = $user['email'];
           if($username === $uname){
              if(password_verify($pass, $password)){
                  $_SESSION['id'] = $id;
@@ -44,6 +45,7 @@ if(isset($_POST['uname']) &&
                  $_SESSION['redeemed_points'] = $redeemedPoints;
                  $_SESSION['last_login'] = $last_login;
                  $_SESSION['withdraw'] = $withdraw;
+                 $_SESSION['email'] = $email;
 
                  header("Location: ../home.php");
                  exit;
