@@ -1,8 +1,8 @@
 <?php 
 
 $sName = "localhost";
-$uName = "root";
-$pass = "";
+$uName = "codeak";
+$pass = "5334";
 $db_name = "quizyit";
 
 try {

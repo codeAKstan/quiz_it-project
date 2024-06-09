@@ -59,9 +59,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 		</ul>
 		<ul class="side-menu">
 			<li>
-				<a href="settings.php">
-					<i class='bx bxs-cog' ></i>
-					<span class="text">Settings</span>
+				<a href="dash/tips.php">
+					<i class='bx bxs-info-circle' ></i>
+					<span class="text">Tips</span>
 				</a>
 			</li>
 			<li>
@@ -148,39 +148,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
 					</div>
-					<table>
-						<!-- <thead>
-							<tr>
-								<th>User</th>
-								<th>Date </th>
-								<th>Status</th>
-							</tr>
-						</thead>
-						<tbody> -->
-						<!-- <tr>
-								<td>
-								<?=$_SESSION['fname']?>
-								</td>
-								<td><?= date('m.d.y')?></td>
-								<td style="color:green;">Active</td>
-							</tr> -->
-							<tr>
-								<td>
-									
-							</tr>
-							<tr>
-								<td>
-									
-							</tr>
-							<tr>
-								
-							</tr>
-							<tr>
-								
-							</tr>
-						</tbody>
-					</table>
 				</div>
+			</div>
 				
 		</main>
 		
