@@ -38,7 +38,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="quiz/quizzes.php">
 					<i class='bx bx-pencil' ></i>
 					<span class="text">Quizzes</span>
 				</a>
