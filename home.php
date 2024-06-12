@@ -8,11 +8,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Boxicons -->
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<script src="https://kit.fontawesome.com/c1fbfe0463.js" crossorigin="anonymous"></script>
-	<!-- My CSS -->
 	<link rel="stylesheet" href="assets/styles/main.css">
 	<link rel="shortcut icon" href="assets/images/inspiration.png" type="image/x-icon">
 
@@ -79,11 +76,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 			</li>
 		</ul>
 	</section>
-	<!-- SIDEBAR -->
+	<!-- SIDEBAR  ends-->
 
 
-
-	<!-- CONTENT -->
 	<section id="content">
 		<!-- NAVBAR -->
 		<nav>
@@ -100,7 +95,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname']) && isset($_SESSION['poin
 			
 			
 		</nav>
-		<!-- NAVBAR -->
+		<!-- NAVBAR ends -->
 
 		<!-- MAIN -->
 		<main>
